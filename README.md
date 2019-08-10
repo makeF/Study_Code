@@ -10,4 +10,4 @@
 
 [泛型类](/Generic_Class.cs)
 
-[多线程](/Test_Tread.cs)
+[多线程](/Test_Thread.cs)
