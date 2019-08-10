@@ -1,5 +1,3 @@
-# Index
-
 [抽象类](/Abstract_Class.cs)
 
 [结构体](/DateTime_Struct.cs)
