@@ -9,3 +9,5 @@
 [简单接口](/First_Interface.cs)
 
 [泛型类](/Generic_Class.cs)
+
+[多线程](/Test_Tread.cs)
