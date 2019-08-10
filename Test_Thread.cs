@@ -20,8 +20,9 @@ namespace TestConsole
                 Console.Write("2 ");
             }
         }
+    }
 
-        class Program
+    class Program
         {
             static void Main(string[] args)
             {
@@ -49,4 +50,3 @@ namespace TestConsole
 
         }
     }
-}
