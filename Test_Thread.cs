@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace TestConsole
 {
-    class ThresdTest //申明测试类
+    class ThreadTest //申明测试类
     {
         public void M1() //测试方法1
         {
@@ -26,7 +26,7 @@ namespace TestConsole
             static void Main(string[] args)
             {
                 Console.WriteLine("这里是主线程，即将创建两个新线程！");
-                ThresdTest tt = new ThresdTest(); //实例化测试类
+                ThreadTest tt = new ThreadTest(); //实例化测试类
 
                 //创建两个新线程
                 Thread t1 = new Thread(tt.M1);
