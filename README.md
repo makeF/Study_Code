@@ -9,3 +9,5 @@
 [泛型类](/Generic_Class.cs)
 
 [多线程](/Test_Thread.cs)
+
+[二进制序列化](/Binary_Serialization.cs)
