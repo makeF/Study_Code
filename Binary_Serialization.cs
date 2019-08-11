@@ -38,7 +38,7 @@ namespace TestConsole
             Console.WriteLine("父子年龄差值（方法）："+ds.DoSubtration());
 
             //序列化代码开始
-            BinaryFormatter formatter = new BinaryFormatter();
+            BinaryFormatter formatter = new BinaryFormatter(); //二进制序列化，会序列化私有字段
 
             FileStream fs = new FileStream("e:\\DadAndSon.bin",FileMode.Create,FileAccess.Write); //实例化数据流对象
 
