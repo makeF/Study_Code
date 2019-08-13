@@ -27,22 +27,21 @@ namespace TestConsole
             }
             Console.WriteLine("\n");
 
-            string strwrite = null;
             while (rd.Read()) //逐行读取，直到完成
             {
                 Console.Write("{0,-20}", (string)rd["Name"]);
                 Console.Write("{0,-20}", (string)rd["CN_Name"]);
                 Console.Write("{0,-20}", (string)rd["Type"]);
                 Console.Write("{0,-20}", (string)rd["Color"]);
-                Console.WriteLine("{0,-20}", ((string)rd["Introduction"]).Substring(0, 20) + "... \r\n\n");
+                Console.WriteLine("{0,-20}", ((string)rd["Introduction"]).Substring(0, 20) + "... \r\n");
             }
-
+            
             //关闭连接
             rd.Close();
             sqlConn.Close();
+            Console.WriteLine("关闭数据连接...");
 
-            Console.WriteLine(strwrite); //输出读取内容
-            Console.WriteLine("-------------------- 读取完成 --------------------");
+            Console.WriteLine("-------------------- 读取完成 --------------------\n\n");
 
 
             DataSet ds = new DataSet(); //初始化数据集
