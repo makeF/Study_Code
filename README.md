@@ -13,6 +13,5 @@
 
 * [二进制序列化](/Binary_Serialization.cs)
 
----
 
 ## ADO.NET
