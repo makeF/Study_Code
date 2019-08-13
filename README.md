@@ -15,4 +15,4 @@
 
 
 ## ADO.NET
-* SqlConnecton、SqlCommand、SqlAdapter、DataSet [简单示例](/simple_ADO.NET.cs)
+* SqlConnecton、SqlCommand、SqlAdapter、SqlDataReader、DataSet [简单示例](/simple_ADO.NET.cs)
