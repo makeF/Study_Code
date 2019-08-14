@@ -16,3 +16,7 @@
 
 ## ADO.NET
 * SqlConnecton、SqlCommand、SqlAdapter、SqlDataReader、DataSet [简单示例](/simple_ADO.NET.cs)
+
+## LINQ
+* [简单LINQ](/Simple_LINQ.cs)
+> [Simple_LINQ](!/Simple_LINQ.png)
