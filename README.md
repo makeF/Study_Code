@@ -19,4 +19,5 @@
 
 ## LINQ
 * [简单LINQ](/Simple_LINQ.cs)
-> [Simple_LINQ](!/Simple_LINQ.png)
+
+![Simple_LINQ](/Image/Simple_LINQ.png)
