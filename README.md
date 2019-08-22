@@ -21,3 +21,26 @@
 * [简单LINQ](/Simple_LINQ.cs)
 
 ![Simple_LINQ](/Image/Simple_LINQ.png)
+
+## Javascript
+
+JavaScript 拥有动态类型。这意味着相同变量可用作不同类型:
+``` JavaScript
+var x;               // 现在 x 是 undefined
+var x = 7;           // 现在 x 是数值
+var x = "Bill";      // 现在 x 是字符串值
+```
+
+JavaScript 变量能够保存多种数据类型：数值、字符串值、数组、对象等等：
+``` javascript
+var length = 7;                             // 数字
+var lastName = "Gates";                      // 字符串
+var cars = ["Porsche", "Volvo", "BMW"];         // 数组
+var x = {firstName:"Bill", lastName:"Gates"};    // 对象 
+```
+
+JavaScript 对象用花括号来书写。
+对象属性是 *name:value* 对，由逗号分隔。
+``` javascript
+var person = {firstName:"Bill", lastName:"Gates", age:62, eyeColor:"blue"};
+```
