@@ -24,6 +24,14 @@
 
 ## Javascript
 
+> 在 JavaScript 中，没有值的变量，其值是 undefined。typeof 也返回 undefined。
+Undefined 与 null 的值相等，但类型不相等：
+``` javascript
+typeof undefined              // undefined
+typeof null                   // object
+null === undefined            // false
+null == undefined             // true
+```
 JavaScript 拥有动态类型。这意味着相同变量可用作不同类型:
 ``` JavaScript
 var x;               // 现在 x 是 undefined
@@ -42,5 +50,16 @@ var x = {firstName:"Bill", lastName:"Gates"};    // 对象
 JavaScript 对象用花括号来书写。
 对象属性是 *name:value* 对，由逗号分隔。
 ``` javascript
-var person = {firstName:"Bill", lastName:"Gates", age:62, eyeColor:"blue"};
+var person = {
+   firstName:"Bill", 
+   lastName:"Gates", 
+   age:62, 
+   eyeColor:"blue",
+   fullName : function() { //对象方法
+    return this.firstName + " " + this.lastName;
+    }
+  };
+  
+//调用对象方法
+person.fullName() //不带括号返回函数定义
 ```
