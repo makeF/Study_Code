@@ -1,5 +1,5 @@
 ## C#基础
-* [抽象类](/C#/Abstract_Class.cs)
+* [抽象类](C#/Abstract_Class.cs)
 
 * [结构体](/C#/DateTime_Struct.cs)
 
